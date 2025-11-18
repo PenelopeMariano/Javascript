@@ -3,37 +3,38 @@
 // semana e exibe o nome correspondente a esse dia. Considere que 1 representa segunda-feira,
 // 2 representa terça-feira e assim por diante.
 
-let number = window.prompt ("Digite o numero de 1 a 7")
+let number = window.prompt("Digite o numero de 1 a 7")
 
 switch (number) {
     case "1":
-        console.log ("Segunda-feira")
+        console.log("Segunda-feira")
         break;
 
-case "2":
-    console.log("Terça-feira")
-    break;
+    case "2":
+        console.log("Terça-feira")
+        break;
 
     case "3":
-        console.log ("Quarta-feira")
+        console.log("Quarta-feira")
         break;
 
-        case "4":
-            console.log ("Quinta-feira")
-break;
+    case "4":
+        console.log("Quinta-feira")
+        break;
 
-case "5":
-    console.log ("Sexta-feira")
-    break;
+    case "5":
+        console.log("Sexta-feira")
+        break;
 
-case "6":
-console.log ("Sabado")
-break;
+    case "6":
+        console.log("Sabado")
+        break;
 
-case "7":
-console.log ("Domingo")
-break;
+    case "7":
+        console.log("Domingo")
+        break;
 
     default:
+        console.log("Valor incorreto")
         break;
 }

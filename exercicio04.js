@@ -3,13 +3,13 @@
 // notas e a mensagem de APROVADO para média superior ou igual a 7,0 RECUPERAÇÃO para
 // notas entre 5.0 e 7,0 ou a mensagem de REPROVADO para média inferior a 5,0.
 
-let nota1 = number.parsetFloat (prompt("Digite a nota de português"))
+let nota1 = Number.parseFloat(prompt("Digite a nota de português"))
 
-let nota2 = number.parsetFloat (prompt("Digite a nota de historia"))
+let nota2 = Number.parseFloat(prompt("Digite a nota de historia"))
 
-let nota3 = number.parsetFloat (prompt("Digite a nota de matematica"))
+let nota3 = Number.parseFloat(prompt("Digite a nota de matematica"))
 
-let nota4 = number.parsetFloat (prompt("Digite a nota de geografia"))
+let nota4 = Number.parseFloat(prompt("Digite a nota de geografia"))
 
 let media = (nota1 + nota2 + nota3 + nota4) / 4
 
