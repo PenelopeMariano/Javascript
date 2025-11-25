@@ -1,9 +1,13 @@
-// Faça um programa que imprima na tela a tabuada de um número
-// qualquer escolhido pelo usuário até o 10.
+// Faça um programa que imprima os números ímpares de 0 a 50
 
-let numero = window.prompt("digite um numero para ver a tabuada")
+for(let num = 0; num <=50; num++){
+    if (num%2 !== 0){
+        console.log(num)
+    }
+}
 
-for (let i = 2; i <= 10; i++){
-    const resultado = numero * i;
-    console.log(`${numero} x ${i} = ${resultado}`)
+console.log("-----------")
+
+for(let numero = 1; numero<=50; numero +=2){
+    console.log(numero)
 }

@@ -5,3 +5,8 @@ for(let num = 1; num <= 10; num++){
          console.log(num);
     }
 }
+
+// outro jeito
+// for(let num = 2; num <=10; num+=2){
+//     console.log(num)
+// }
