@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio01</title>
+</head>
+<body>
+    <!-- Exercício 01
+Alterar o texto de um paragrafo ao clicar em um botão -->
+
+<h1>Exercicio 01</h1>
+<p>Texto original</p>
+
+<button onclick="alterarTexto()">Alterar texto</button>
+</body>
+
+<script>
+    function alterarTexto(){
+        //Selecionar o elemento p 
+        let paragrafo = window.document.getElementById("meuParagrafo")
+        // Alterar texto
+paragrafo.innerText = "Texto"
+    }
+</script>
+</html>
